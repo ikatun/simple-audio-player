@@ -8,12 +8,12 @@ import bluebird from 'bluebird';
 import header1 from './images/header1.png';
 
 const names = [
-  'music/track1.mp3',
-  'music/track2.mp3',
-  'music/track3.mp3',
-  'music/track4.mp3',
-  'music/track5.mp3',
-  'music/track6.mp3'
+  'track1.mp3',
+  'track2.mp3',
+  'track3.mp3',
+  'track4.mp3',
+  'track5.mp3',
+  'track6.mp3'
 ];
 
 const loadSound = track => new Promise((resolve, reject) => {
